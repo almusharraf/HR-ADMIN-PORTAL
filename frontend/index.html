@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PGX HR Portal — frontend dev shell</title>
+</head>
+<body style="font-family: system-ui, sans-serif; max-width: 640px; margin: 60px auto; line-height: 1.5;">
+  <h1>This is just the asset dev shell</h1>
+  <p>
+    The HR admin portal itself is server-rendered PHP — there is no page to
+    render here. This file only exists so <code>npm run dev</code> has
+    something to serve while Vite hot-reloads <code>admin.js</code> /
+    <code>admin.css</code>.
+  </p>
+  <p>
+    To see the actual portal, start the PHP backend in another terminal:
+  </p>
+  <pre>cd backend
+php -S localhost:8080 -t public router.php</pre>
+  <p>...then open <a href="http://localhost:8080/">http://localhost:8080/</a> (not this :5173 page).</p>
+  <p>See the root README.md for full setup instructions.</p>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+backend/.env
+backend/config/.htpasswd
+backend/storage/uploads/*
+!backend/storage/uploads/.gitkeep
+node_modules/
+frontend/dist/
+backend/public/assets/admin.js
+backend/public/assets/admin.css
+.DS_Store
